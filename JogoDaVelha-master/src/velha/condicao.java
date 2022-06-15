@@ -3,6 +3,7 @@ package velha;
 public class condicao {
 
     public static int haGanhador(int tabuleiro[][]) {
+        
         //Checa X verticalmente
         if (tabuleiro[0][0] == 'X' && tabuleiro[1][0] == 'X' && tabuleiro[2][0] == 'X') {
             System.out.println("'X' VENCEU");
